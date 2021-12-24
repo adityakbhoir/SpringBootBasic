@@ -20,8 +20,15 @@ public class ApplicationController {
     {
         return "SOFTWARE DEVELOPMENT";
     }
+
     @GetMapping("/loanservices")
     public String loanservice()
+    {
+        return "welcome to SOFTWARE DEVELOPMENT";
+    }
+
+    @GetMapping("/add")
+    public String loanadd()
     {
         return "welcome to SOFTWARE DEVELOPMENT";
     }
