@@ -13,4 +13,11 @@ public class ApplicationController {
     {
         return "Welcome to csi";
     }
+
+
+    @GetMapping("/service")
+    public String service()
+    {
+        return "SOFTWARE DEVELOPMENT";
+    }
 }
